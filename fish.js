@@ -1,9 +1,9 @@
 var RENDERER = {
-	POINT_INTERVAL : 5,
+	POINT_INTERVAL : 2,
 	FISH_COUNT : 1,
-	MAX_INTERVAL_COUNT : 50,
-	INIT_HEIGHT_RATE : 0.5,
-	THRESHOLD : 50,
+	MAX_INTERVAL_COUNT : 20,
+	INIT_HEIGHT_RATE : 0.2,
+	THRESHOLD : 20,
 	
 	init : function(){
 		this.setParameters();
